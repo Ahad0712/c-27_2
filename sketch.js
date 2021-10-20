@@ -19,9 +19,9 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-  hammer=new Hammer();
-  ground=new Ground();
-  stone=new Stone();
+  hammer=new Hammer(10,100);
+  ground=new Ground(400,690,800,20);
+  stone=new Stone(700,500,20,20);
 
 	Engine.run(engine);
   
